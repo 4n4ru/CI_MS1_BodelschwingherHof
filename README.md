@@ -99,7 +99,8 @@
 | Bug | Fix |
 | ----------- | ----------- |
 | Some bug | The fix for it |
-| Paragraph   | Text        |
+| one more bug | another fix |
+| oh my so many bug | and this is how we fix them |
 
 ## Deployment
 
