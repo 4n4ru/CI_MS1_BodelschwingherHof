@@ -96,10 +96,10 @@
 
 ## Bugs
 
-| Bug | Fix |
+| **Bug** | **Fix** |
 | ----------- | ----------- |
 | Some bug | The fix for it |
-| one more bug | another fix |
+| another bug | another fix |
 | oh my so many bug | and this is how we fix them |
 
 ## Deployment
