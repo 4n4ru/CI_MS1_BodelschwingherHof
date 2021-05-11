@@ -40,8 +40,17 @@
 ## Project Goals 
 
 ### User Goals
+- Finding a restaurant that offers a nice atmosphere and good food.
+- See a full menu with clear pricing.
+- Find information about the restaurant.
+- Find the location of the restaurant
 
 ### Site Owner Goals
+- Increase in the number of customers.
+- Good presentation and a visually appealing look regardless of screen size.
+- Promote the bussines.
+- Provide a way for new and existing customers to contact the buissnes.
+- Provide essential information about the bussines to customers.
 
 ## User Experience
 
@@ -50,6 +59,19 @@
 ### User Requrements and Expectations
 
 ### User Stories
+
+1. As a user I want to know where the restaurant is lokated
+2. As a user I want to know the opening times
+3. As a user I want to find a phone number to call for reservation
+4. As a user I want to leave some comment, suggestion or message to the staff
+5. As a user I want to see the menu 
+6. As a user I want to know the price range
+7. As a user I want to see news about events or changes in opening times during holidays
+8. As a user I want to see the Sunday meal offer
+9. As a user I want to know more about the restaurant
+10. As a user I want to know who is preparing the food
+11. As a user I want to get a feel of what to expect at the restaurant
+12. As a user I want to find the restaurant on social media
 
 #### First-time users
 
