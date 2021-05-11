@@ -1,9 +1,8 @@
 # Bodelschwinger Hof
-<img src="" alt="" width="200" height="200">
 
-![Responsible mockup of the website]()
+(mockup image)
 
-[View the deployed website]()
+(link to deployed page)
 
 ## Table of Content
 
