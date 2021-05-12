@@ -150,4 +150,9 @@
 
 ## Credits
 
+### Media
+In order of apearance:
+- <a href='https://www.freepik.com/photos/food'>Food photo created by freepik - www.freepik.com</a>
+
+
 ## Acknowledgements
