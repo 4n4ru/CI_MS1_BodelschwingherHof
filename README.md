@@ -97,13 +97,20 @@
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/homepage.png" width="200">
+<img src="docs/wireframes/homepage.png">
 </details>
-- [Home](docs/wireframes/homepage.png)
-- [About](docs/wireframes/about.png) 
-- [Menu](docs/wireframes/menu.png) 
-- [Gallery](docs/wireframes/gallery.png) 
-- [Contact](docs/wireframes/contact.png) 
+<details><summary>About</summary>
+<img src="docs/wireframes/about.png">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/wireframes/menu.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/wireframes/gallery.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/contact.png">
+</details>
 
 ## Technologies Used
 
