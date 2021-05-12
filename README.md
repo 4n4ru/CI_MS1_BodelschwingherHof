@@ -47,7 +47,6 @@
 
 ### Site Owner Goals
 - Increase in the number of customers.
-- Good presentation and a visually appealing look regardless of screen size.
 - Promote the bussines.
 - Provide a way for new and existing customers to contact the buissnes.
 - Provide essential information about the bussines to customers.
@@ -55,8 +54,20 @@
 ## User Experience
 
 ### Target Audience
+- People looking for a place to dine at
+- People looking to order take away
+- Groups of people looking for a place to carter a event
+- Small to medium wedding parties
 
 ### User Requrements and Expectations
+
+- A simple and intuitive navigation system
+- Quickly and easily find relevant information
+- Links and functions that work as expected
+- Good presentation and a visually appealing design regardless of screen size
+- An easy way to contact the bussines
+- Simple content that the user can skim read
+- Accessibility
 
 ### User Stories
 
@@ -72,10 +83,6 @@
 10. As a user I want to know who is preparing the food
 11. As a user I want to get a feel of what to expect at the restaurant
 12. As a user I want to find the restaurant on social media
-
-#### First-time users
-
-#### Returning visitor
 
 ## Design
 
