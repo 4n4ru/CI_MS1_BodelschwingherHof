@@ -96,6 +96,12 @@
 
 ### Wireframes
 
+- [Home](docs/wireframes/homepage.png)
+- [About](docs/wireframes/about.png) 
+- [Menu](docs/wireframes/menu.png) 
+- [Gallery](docs/wireframes/gallery.png) 
+- [Contact](docs/wireframes/contact.png) 
+
 ## Technologies Used
 
 ### Languages
