@@ -96,6 +96,9 @@
 
 ### Wireframes
 
+<details><summary>Home</summary>
+<img src="docs/wireframes/homepage.png" width="200">
+</details>
 - [Home](docs/wireframes/homepage.png)
 - [About](docs/wireframes/about.png) 
 - [Menu](docs/wireframes/menu.png) 
