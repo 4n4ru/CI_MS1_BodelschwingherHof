@@ -115,8 +115,16 @@
 ## Technologies Used
 
 ### Languages
+HTML
+CSS
 
 ### Frameworks & Tools
+Git
+GitHub
+Gitpod
+Tinypng
+paint.net
+balsamiq
 
 ## Features
 
