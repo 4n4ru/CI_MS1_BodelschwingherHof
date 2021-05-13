@@ -87,8 +87,11 @@
 ## Design
 
 ### Design Choices
+The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
+Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
 
 ### Colour
+For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. 
 
 ### Fonts
 Pinyon script with cursive as fallback for logo, favicon and quote
@@ -96,6 +99,13 @@ Montserrat for body
 Roboto for headings
 
 ### Structure
+The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
+The website consists of five separate pages: 
+- A homepage with a sections for News and Sunday Meal Offers
+- An about page with the About Us and Meet the Chef
+- A menu page
+- A image gallery with images and video showcasing the general feel of the restaurant
+- A contact page with a contact form, a map and information about the bussines section
 
 ### Wireframes
 
