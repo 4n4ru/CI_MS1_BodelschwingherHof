@@ -91,6 +91,9 @@
 ### Colour
 
 ### Fonts
+Pinyon script with cursive as fallback for logo, favicon and quote
+Montserrat for body
+Roboto for headings
 
 ### Structure
 
@@ -125,6 +128,7 @@
 - Tinypng
 - paint.net
 - balsamiq
+- google fonts
 
 ## Features
 
