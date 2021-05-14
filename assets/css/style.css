@@ -6,8 +6,32 @@
     --off-white: #f4f4f4;
 }
 
+body {
+    background-color: var(--off-white);
+}
+
+/* header */
+
+header {
+    background-color: var(--dark-brown);
+}
+
 .my-logo {
     font-family: 'Pinyon Script', cursive;
     padding: .5rem 1rem;
     font-size: 1.5rem;
+    color: var(--off-white);
+}
+
+.my-nav-link {
+    color: var(--off-white);
+}
+
+.nav-pills .my-nav-link.active {
+    background-color: var(--off-white);
+    color: var(--dark-brown);
+}
+
+.nav-pills .my-nav-link:hover {
+    color: var(--light-grey);
 }
