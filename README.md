@@ -91,7 +91,9 @@ The webpage was designed with the feeling a customer might get while dining at t
 Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
 
 ### Colour
-For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. 
+For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
+![Colour scheme](docs/colors/color-palette.png)
+
 
 ### Fonts
 Pinyon script with cursive as fallback for logo, favicon and quote
@@ -139,6 +141,7 @@ The website consists of five separate pages:
 - paint.net
 - balsamiq
 - google fonts
+- Adobe color
 
 ## Features
 
