@@ -1,0 +1,14 @@
+:root {
+    --dark-brown: #261914;
+    --brown: #73482F;
+    --dark-grey: #59514F;
+    --light-grey: #B5A5A1;
+    --off-white: #f4f4f4;
+}
+
+.my-logo {
+    font-family: 'Pinyon Script', cursive;
+    float: left;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+}
