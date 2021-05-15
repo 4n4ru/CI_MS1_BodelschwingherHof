@@ -14,7 +14,7 @@ body {
 
 /* header */
 
-nav {
+.my-nav {
     background-color: var(--dark-brown);
 }
 
@@ -22,24 +22,24 @@ nav {
     flex-grow: 0;
 }
 
-.my-logo {
+.navbar .my-logo {
     font-family: 'Pinyon Script', cursive;
     padding: .5rem 1rem;
     font-size: 1.5rem;
     color: var(--off-white);
 }
 
-.my-link {
+.navbar .nav-pills .my-link {
     color: var(--off-white);
     text-decoration: none;
 }
 
-.nav-pills .my-link.active {
+.navbar .nav-pills .my-link.active {
     background-color: var(--off-white);
     color: var(--dark-brown);
 }
 
-.nav-pills .my-link:hover {
+.navbar .nav-pills .my-link:hover :not(.active){
     color: var(--light-grey);
 }
 
@@ -50,6 +50,11 @@ footer {
 
 footer div {
     color: var(--off-white);
+}
+
+.my-link {
+    color: var(--off-white);
+    text-decoration: none;
 }
 
 .my-link:hover {
