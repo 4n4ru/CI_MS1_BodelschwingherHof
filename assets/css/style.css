@@ -25,15 +25,29 @@ header {
     color: var(--off-white);
 }
 
-.my-nav-link {
+.my-link {
     color: var(--off-white);
+    text-decoration: none;
 }
 
-.nav-pills .my-nav-link.active {
+.nav-pills .my-link.active {
     background-color: var(--off-white);
     color: var(--dark-brown);
 }
 
-.nav-pills .my-nav-link:hover {
+.nav-pills .my-link:hover {
+    color: var(--light-grey);
+}
+
+/* footer */
+footer {
+    background-color: var(--dark-brown);
+}
+
+footer div {
+    color: var(--off-white);
+}
+
+.my-link:hover {
     color: var(--light-grey);
 }
