@@ -138,10 +138,11 @@ The website consists of five separate pages:
 - GitHub
 - Gitpod
 - Tinypng
-- paint.net
-- balsamiq
-- google fonts
-- Adobe color
+- Paint.NET
+- Balsamiq
+- Google Fonts
+- Adobe Color
+- Font Awsome
 
 ## Features
 
@@ -174,7 +175,7 @@ The website consists of five separate pages:
 ## Deployment
 
 ## Credits
-Images not referenced below are owned by me.
+Images not referenced below are owned by the developer.
 
 ### Media
 
