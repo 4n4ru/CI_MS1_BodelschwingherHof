@@ -14,8 +14,12 @@ body {
 
 /* header */
 
-header {
+nav {
     background-color: var(--dark-brown);
+}
+
+.my-colapse{
+    flex-grow: 0;
 }
 
 .my-logo {
