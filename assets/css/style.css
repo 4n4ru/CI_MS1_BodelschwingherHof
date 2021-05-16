@@ -50,15 +50,32 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--light-grey);
 }
 /* main*/
-
-/* carousel */
-.carousel-item {
-    height: 80vh;
-}
-
 main h1 {
     text-transform: uppercase;
     font-weight: bolder;
+}
+
+/* news */
+.circle {
+    border: 1px solid var(--dark-brown);
+    border-radius: 50%;
+    padding: 2%;
+    z-index: 2;
+    background-color: var(--off-white);
+}
+
+.circle img {
+    width: 100%;
+    border-radius: 50%;
+    z-index: 3;    
+}
+
+.news p{
+    background-color: var(--brown);
+    color: var(--off-white);
+    padding: 5% 5% 5% 32%;
+    margin-left: -30%;
+    z-index: -1;
 }
 
 /* footer */
