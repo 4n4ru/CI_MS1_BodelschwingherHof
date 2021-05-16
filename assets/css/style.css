@@ -31,8 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .my-logo {
     font-family: 'Pinyon Script', cursive;
-    padding: .5rem 1rem;
-    font-size: 1.5rem;
     color: var(--off-white);
 }
 
@@ -118,4 +116,4 @@ footer h3 {
 .menu {
     background-color: var(--light-grey);
     width: 90%;
-}
+}   
