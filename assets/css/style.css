@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--light-grey);
 }
 /* main*/
+
 main h1 {
     text-transform: uppercase;
     font-weight: bolder;
@@ -110,4 +111,11 @@ footer div {
 
 footer h3 {
     text-transform: uppercase;
+}
+
+/* menu */
+
+.menu {
+    background-color: var(--light-grey);
+    width: 90%;
 }
