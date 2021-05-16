@@ -50,6 +50,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--light-grey);
 }
 
+/* carousel */
+.carousel-item {
+    height: 80vh;
+}
+
 /* footer */
 footer {
     background-color: var(--dark-brown);
@@ -68,7 +73,6 @@ footer div {
     color: var(--light-grey);
 }
 
-/* carousel */
-.carousel-item {
-    height: 80vh;
+footer h3 {
+    text-transform: uppercase;
 }
