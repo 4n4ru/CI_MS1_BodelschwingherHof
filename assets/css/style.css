@@ -78,6 +78,17 @@ main h1 {
     z-index: -1;
 }
 
+.meal-deal h2 {
+    text-align: right;
+}
+
+.meal-deal p {
+    background-color: var(--brown);
+    color: var(--off-white);
+    padding: 5% 32% 5% 7%;
+    margin-right: -30%;
+    z-index: -1;
+}
 /* footer */
 footer {
     background-color: var(--dark-brown);
