@@ -49,10 +49,16 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .nav-pills .my-link:hover :not(.active){
     color: var(--light-grey);
 }
+/* main*/
 
 /* carousel */
 .carousel-item {
     height: 80vh;
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 /* footer */
