@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
     --dark-brown: #261914;
@@ -12,6 +12,11 @@
 
 body {
     background-color: var(--off-white);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header */
