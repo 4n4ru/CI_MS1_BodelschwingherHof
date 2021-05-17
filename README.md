@@ -1,6 +1,6 @@
 # Bodelschwinger Hof
 
-(mockup image)
+![Mockup image](docs/am-i-responsive.jpg)
 
 [Live webpage](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/)
 
