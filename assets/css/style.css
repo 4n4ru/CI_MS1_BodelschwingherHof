@@ -119,6 +119,17 @@ footer h3 {
 }
 
 /* gallery */
+.my-img-container {
+    height: 33vh;
+    overflow: hidden;
+}
+
+.my-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
 
 /* contact */
 .my-btn {
