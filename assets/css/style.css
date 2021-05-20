@@ -176,3 +176,10 @@ footer h3 {
     color: var(--off-white);
     border: 1px solid var(--dark-grey)
 }
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 70vh;
+        object-fit: cover;
+    }
+}
