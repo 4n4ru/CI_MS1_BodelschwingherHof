@@ -137,6 +137,11 @@ footer h3 {
 
 /* menu */
 
+.menu-container {
+    background-image: url('../images/menu-background.jpg');
+    background-repeat: repeat-y;
+}
+
 .menu {
     background-color: var(--light-grey);
     width: 90%;
