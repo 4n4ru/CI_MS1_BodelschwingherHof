@@ -111,6 +111,30 @@ footer h3 {
     text-transform: uppercase;
 }
 
+/* about */
+
+.my-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quotes {
+    background-color: var(--dark-grey);
+    color: var(--off-white);
+}
+
+.quotes p {
+    text-align: center;
+    font-style: italic;
+}
+
+.quotes h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
 /* menu */
 
 .menu {
@@ -122,12 +146,6 @@ footer h3 {
 .my-img-container {
     height: 33vh;
     overflow: hidden;
-}
-
-.my-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .my-video-container {
