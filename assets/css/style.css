@@ -136,15 +136,13 @@ footer h3 {
 }
 
 /* menu */
-
-.menu-container {
-    background-image: url('../images/menu-background.jpg');
-    background-repeat: repeat-y;
-}
-
-.menu {
-    background-color: var(--light-grey);
-    width: 90%;
+.menu-section h2 {
+    text-align: center;
+    background: url('../images/menu-background.jpg');
+    padding: 1rem 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: var(--dark-brown);
 }
 
 /* gallery */
