@@ -143,6 +143,7 @@ footer h3 {
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-color: var(--dark-brown);
+    margin-bottom: 0;
 }
 
 /* gallery */
