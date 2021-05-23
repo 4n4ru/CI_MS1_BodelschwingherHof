@@ -146,6 +146,19 @@ footer h3 {
     margin-bottom: 0;
 }
 
+.my-sticky-top{
+    position: relative;
+    position: sticky;
+    position: -webkit-sticky;
+    top: calc(2rem + 1.325rem + .9vw);
+}
+
+.my-img-menu{
+    width: 100%;
+    height: calc(100vh - (2rem + 1.325rem + .9vw));
+    object-fit: cover;
+}
+
 /* gallery */
 .my-img-container {
     height: 33vh;
