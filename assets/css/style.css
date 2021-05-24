@@ -188,6 +188,10 @@ footer h3 {
     border: 1px solid var(--dark-grey)
 }
 
+#phoneHelp {
+    color: var(--dark-brown);
+}
+
 @media (max-width: 768px) {
     .carousel-item img {
         height: 70vh;
