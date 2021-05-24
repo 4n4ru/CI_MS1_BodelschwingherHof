@@ -202,3 +202,9 @@ footer h3 {
         text-align: left;
     }
 }
+
+@media (max-width: 576px) {
+    .how-to-find-us p {
+        font-size: 0.95rem;
+    }
+}
