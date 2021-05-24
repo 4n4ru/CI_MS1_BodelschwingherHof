@@ -71,7 +71,7 @@ main h1 {
 .news p{
     background-color: var(--brown);
     color: var(--off-white);
-    padding: 5% 5% 5% 37%;
+    padding: 5% 5% 5% 40%;
     margin-left: -35%;
     z-index: -1;
 }
@@ -83,7 +83,7 @@ main h1 {
 .meal-deal p {
     background-color: var(--brown);
     color: var(--off-white);
-    padding: 5% 37% 5% 7%;
+    padding: 5% 40% 5% 5%;
     margin-right: -35%;
     z-index: -1;
 }
