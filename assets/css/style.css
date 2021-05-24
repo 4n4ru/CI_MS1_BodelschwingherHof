@@ -58,7 +58,6 @@ main h1 {
 .circle {
     border: 1px solid var(--dark-brown);
     border-radius: 50%;
-    padding: 5%;
     z-index: 2;
     background-color: var(--off-white);
 }
@@ -193,5 +192,9 @@ footer h3 {
     .carousel-item img {
         height: 70vh;
         object-fit: cover;
+    }
+
+    .news, .meal-deal {
+        overflow: hidden;
     }
 }
