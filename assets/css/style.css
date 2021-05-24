@@ -197,4 +197,8 @@ footer h3 {
     .news, .meal-deal {
         overflow: hidden;
     }
+    
+    .meal-deal h2 {
+        text-align: left;
+    }
 }
