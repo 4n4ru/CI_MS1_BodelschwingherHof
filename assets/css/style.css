@@ -216,7 +216,7 @@ footer h3 {
 }
 
 @media (max-width: 576px) {
-    .how-to-find-us p {
-        font-size: 0.95rem;
+    .find-us div {
+        width: 100%;
     }
 }
