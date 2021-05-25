@@ -9,20 +9,23 @@
         content="Bodelschwingher Hof is a restaurant offering mediterranean food, fresh fish and argentine steak from a lava stone grill.">
     <meta name="keywords"
         content="Bodelschwingher Hof, restaurant, menu, Dortmund, Bodelschwingh, partyservice, 
-    wintergarden, argentine steak, fresh fish, lavastone grill, grill, mediterranean food, ninepins, bowling, beer garden">
+        wintergarden, argentine steak, fresh fish, lavastone grill, grill, mediterranean food, ninepins, bowling, beer garden">
     <meta name="author" content="Ana Runje">
     <title>Bodelschwingher Hof</title>
+    <!-- Bootstrap v5.0 link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
+        <!-- Navbar taken from bootstrap documentation code snippet, for more information see README.md -->
         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark my-nav">
             <div class="container-fluid">
-                <a class="navbar-brand my-logo fs-2" href="index.html">Bodelschwingher Hof</a>
+                <a class="navbar-brand my-logo fs-2" href="#">Bodelschwingher Hof</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -31,13 +34,13 @@
                 <div class="collapse navbar-collapse my-colapse nav-pills" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link my-link" href="index.html">Home</a>
+                            <a class="nav-link my-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link my-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-link active" aria-current="page" href="#">Menu</a>
+                            <a class="nav-link my-link" href="menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link my-link" href="gallery.html">Gallery</a>
@@ -51,29 +54,37 @@
         </nav>
     </header>
     <main>
+        <!-- Main heading -->
         <div class="d-flex justify-content-center my-5">
             <h1>Menu</h1>
         </div>
-        <section class="menu-section"> 
+        <!-- Starters, with sticky heading at the top -->
+        <section class="menu-section">
             <div>
                 <div class="sticky-top">
                     <h2>Starters</h2>
                 </div>
                 <div class="row row-cols-2 gx-0">
+                    <!-- Image for starters section on the left-->
                     <div class="col-12 col-lg-6">
-                        <img class="my-img-menu" src="assets/images/starter.jpg" alt="Three slices of Bruschetta on a wooden board">
+                        <img class="my-img-menu" src="assets/images/starter.jpg"
+                            alt="Three slices of Bruschetta on a wooden board">
                     </div>
+                    <!-- Starter menu to the right -->
                     <div class="col-12 col-lg-6 p-3">
+                        <!-- itemone -->
                         <div class="row row-cols-2">
                             <div class="col-12 col-sm-10">
                                 <h3 class="fs-4">Antipasti "House Style"</h3>
                                 <p>Grilled mushrooms, aubergine, zucchini and bell pepper slices with Mediterranean
                                     herbs, arranged on a salad bed served with baguette</p>
                             </div>
+                            <!-- price -->
                             <div class="col-12 col-sm-2 align-items-top">
                                 <p>€12.50</p>
                             </div>
                         </div>
+                        <!-- itemtwo -->
                         <div class="row row-cols-2">
                             <div class="col-12 col-sm-10">
                                 <h3 class="fs-4">Roman Style Snails</h3>
@@ -81,33 +92,40 @@
                                     served
                                     with baguetten</p>
                             </div>
+                            <!-- price -->
                             <div class="col-12 col-sm-2 align-items-top">
                                 <p>€7.50</p>
                             </div>
                         </div>
+                        <!-- itemthree -->
                         <div class="row row-cols-2">
                             <div class="col-12 col-sm-10">
                                 <h3 class="fs-4">Baked Sheep Cheese</h3>
                                 <p>with tomato, pepper, onion and garlic, served with baguette</p>
                             </div>
+                            <!-- price -->
                             <div class="col-12 col-sm-2 align-items-top">
                                 <p>€7.50</p>
                             </div>
                         </div>
+                        <!-- itemfour -->
                         <div class="row row-cols-2">
                             <div class="col-12 col-sm-10">
                                 <h3 class="fs-4">Bruschetta</h3>
                                 <p>Crispy baguette topped with tomatoes, garlic and basil</p>
                             </div>
+                            <!-- price -->
                             <div class="col-12 col-sm-2 align-items-top">
                                 <p>€7.50</p>
                             </div>
                         </div>
+                        <!-- itemfive -->
                         <div class="row row-cols-2">
                             <div class="col-12 col-sm-10">
                                 <h3 class="fs-4">Baked Camembert</h3>
                                 <p>with peach half, cranberries, butter and toast</p>
                             </div>
+                            <!-- price -->
                             <div class="col-12 col-sm-2 align-items-top">
                                 <p>€12.50</p>
                             </div>
@@ -116,12 +134,15 @@
                 </div>
             </div>
         </section>
+        <!-- Main meals section with sticky header and sticky image -->
         <section class="menu-section">
             <div class="sticky-top">
                 <h2>Main meals</h2>
             </div>
             <div class="row row-cols-2 gx-0">
+                <!-- Main meals menu to the left -->
                 <div class="col-12 col-lg-6 order-2 order-lg-1 p-3">
+                    <!-- item one -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Rumpsteak (300g)</h3>
@@ -131,273 +152,338 @@
                                 meat flavor.
                             </p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€22.90</p>
                         </div>
                     </div>
+                    <!-- item two -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Sirloin Steak (300g)</h3>
                             <p>with herb butter and jacket potatoes, served with sour cream. An almost fat free
                                 steak.</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€19.90</p>
                         </div>
                     </div>
+                    <!-- item three -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Tenderloin Steak (200g)</h3>
                             <p>with herb butter and jacket potato, served with sour cream. The tender piece from
                                 the heart of the ox loin</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€20.90</p>
                         </div>
                     </div>
+                    <!-- item four -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Vegetable skewer with spinach tagliatelle</h3>
                             <p>Various vegetables grilled on skewers, with spinach tagliatelle on tomato sauce.
                             </p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€11.90</p>
                         </div>
                     </div>
+                    <!-- item five -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Pljeskavica “Special”</h3>
                             <p>Minced steak filled with sheep cheese, french fries and salad.</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€12.90</p>
                         </div>
                     </div>
+                    <!-- item six -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Cevapcici</h3>
                             <p>Minced meat rolls, french fries and salad.</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€10.90</p>
                         </div>
                     </div>
+                    <!-- item seven -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">"Mozart" medallions</h3>
                             <p>Pork fillet in a fine Madeira sauce, with croquettes, broccoli, hollandaise and
                                 salad</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€15.95</p>
                         </div>
                     </div>
+                    <!-- item eight -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Steak “Bombay”</h3>
                             <p>Turkey steak in curry sauce with exotic fruits, butter rice and salad.</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€14.90</p>
                         </div>
                     </div>
                 </div>
+                <!-- Image for main meal section, to the right and sticky on top below section heading -->
                 <div class="col-12 col-lg-6 order-1 order-lg-2">
-                    <img class="my-sticky-top my-img-menu" src="assets/images/main-meal.jpg" alt="Steak and jacket potatoes on a plate">
+                    <img class="my-sticky-top my-img-menu" src="assets/images/main-meal.jpg"
+                        alt="Steak and jacket potatoes on a plate">
                 </div>
             </div>
         </section>
+        <!-- Kids meal section with sticky heading -->
         <section class="menu-section">
             <div class="sticky-top">
                 <h2>Kids meals</h2>
             </div>
             <div class="row row-cols-2 gx-0">
+                <!-- Image for kids meals, to the left -->
                 <div class="col-12 col-lg-6">
-                    <img class="my-img-menu" src="assets/images/kids-meal.jpg" alt="Chicken skewer with vegetables on a plate">
+                    <img class="my-img-menu" src="assets/images/kids-meal.jpg"
+                        alt="Chicken skewer with vegetables on a plate">
                 </div>
+                <!-- kids meals menu, to the right -->
                 <div class="col-12 col-lg-6 p-3">
+                    <!-- item one -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Schnitzel "Bambi"</h3>
                             <p>breaded pork with french fries and salad</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€7.50</p>
                         </div>
                     </div>
+                    <!-- item two -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Cevapcici “Pinocchio”</h3>
                             <p>with french fries and salad</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€8.00</p>
                         </div>
                     </div>
+                    <!-- item three -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Small skewer</h3>
                             <p>with french fries and salad</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€8.00</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
+        <!-- Dessert section with sticky heading -->
         <section class="menu-section">
             <div class="sticky-top">
                 <h2>Desserts</h2>
             </div>
             <div class="row row-cols-2 gx-0">
+                <!-- desserts menu to the left -->
                 <div class="col-12 col-lg-6 order-2 order-lg-1 p-3">
+                    <!-- item one -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Ice Cream Cup</h3>
                             <p>Three scoops of icecream served with wipped cream.</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€4.50</p>
                         </div>
                     </div>
+                    <!-- item two -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">banana "Split"</h3>
                             <p>Ice cream served in a split banana served with whipped cream.</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€6.50</p>
                         </div>
                     </div>
+                    <!-- item three -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Crepes with Ice Cream</h3>
                             <p>Ice cream wrapped in a crepe, served with wipped cream</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€7.50</p>
                         </div>
                     </div>
                 </div>
+                <!-- image for dessert section, to the right -->
                 <div class="col-12 col-lg-6 order-1 order-lg-2">
-                    <img class="my-img-menu" src="assets/images/dessert.jpg" alt="Ice cream cup with three scoopes of chocolate ice cream">
+                    <img class="my-img-menu" src="assets/images/dessert.jpg"
+                        alt="Ice cream cup with three scoopes of chocolate ice cream">
                 </div>
             </div>
         </section>
+        <!-- Wine section with sticky heading -->
         <section class="menu-section">
             <div class="sticky-top">
                 <h2>Wine</h2>
             </div>
             <div class="row row-cols-2 gx-0">
+                <!-- image for wine section to the left -->
                 <div class="col-12 col-lg-6">
-                    <img class="my-img-menu" src="assets/images/wine.jpg" alt="Bottles of wine in wine cellar with only top of the cap visible">
+                    <img class="my-img-menu" src="assets/images/wine.jpg"
+                        alt="Bottles of wine in wine cellar with only top of the cap visible">
                 </div>
                 <div class="col-12 col-lg-6 p-3">
+                    <!-- Rose -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Rosé</h3>
                         </div>
                     </div>
+                    <!-- item one -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <p class="mb-0">Opol 0.75l</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p class="mb-3 mb-sm-0">€18.00</p>
                         </div>
                     </div>
+                    <!-- item two -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <p class="mb-0 mb-sm-3">Cabernet Sauvignon 0.75l</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€18.00</p>
                         </div>
                     </div>
+                    <!-- White -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">White</h3>
                         </div>
                     </div>
+                    <!-- item one -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <p class="mb-0">Laski Riesling - sweet 0.75l</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p class="mb-3 mb-sm-0">€18.00</p>
                         </div>
                     </div>
+                    <!-- item two -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <p class="mb-0 mb-sm-3">Zilavka - dry 0.75l</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€18.00</p>
                         </div>
                     </div>
+                    <!-- Red -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <h3 class="fs-4">Red</h3>
                         </div>
                     </div>
+                    <!-- item one -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <p class="mb-0">Plavac - dry 0.75l</p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p class="mb-3 mb-sm-0">€18.00</p>
                         </div>
                     </div>
+                    <!-- item two -->
                     <div class="row row-cols-2">
                         <div class="col-12 col-sm-10">
                             <p class="mb-0 mb-sm-3">Dalmatinac - sweet 0.75l </p>
                         </div>
+                        <!-- price -->
                         <div class="col-12 col-sm-2 align-items-top">
                             <p>€18.00</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
     <footer>
         <div class="d-flex flex-column flex-md-row flex-lg-row justify-content-around align-items-center">
+            <!-- Contact information -->
             <div class="mt-3">
                 <h3 class="fs-4">Info:</h3>
                 <p class="mb-1"><i class="fas fa-map-marker-alt"></i> Bodelschwingher Straße 121
                     <br>
                     44357 Dortmund
                 </p>
-                <p class="mb-1"><a class="my-link" href="tel:+49231371377"> <i class="fas fa-phone"></i> 0231/37 13 77</a></p>
+                <p class="mb-1"><a class="my-link" href="tel:+49231371377"> <i class="fas fa-phone"></i> 0231/37 13
+                        77</a></p>
             </div>
+            <!-- Opening times -->
             <div class="mt-3">
                 <h3 class="fs-4">Opening times:</h3>
                 <ul class="list-unstyled">
                     <li>Monday - Saturday: 4pm - 9pm</li>
-                    <li>Sunday and holyday: 12pm - 8pm</li>
+                    <li>Sunday and holiday: 12pm - 8pm</li>
                     <li>Tuesday: closed</li>
                 </ul>
             </div>
+            <!-- Social media links -->
             <div class="mb-3 mt-md-3">
                 <ul class="list-inline justify-content-between row fs-3 m-0 p-0 flex-nowrap">
-                    <li class="list-inline-item col-4"><a class="my-link" href="https://www.facebook.com/bodelschwingher.hof/"
-                            target="_blank" rel="noopener" aria-label="Visit us on Facebook (opens in new tab)"><i class="fab fa-facebook"></i></a></li>
-                    <li class="list-inline-item col-4"><a class="my-link" href="https://www.instagram.com/bodelschwingher_hof_restaurant/" target="_blank" rel="noopener" aria-label="Visit us on Instagram (opens in new tab)"><i
-                                class="fab fa-instagram"></i></a></li>
                     <li class="list-inline-item col-4"><a class="my-link"
-                            href="https://goo.gl/maps/L1ZEbpdaY67HUpj88" target="_blank" rel="noopener" aria-label="Visit our buissnes Google Maps (opens in new tab)"><i class="fab fa-google"></i></a></li>
+                            href="https://www.facebook.com/bodelschwingher.hof/" target="_blank" rel="noopener"
+                            aria-label="Visit us on Facebook (opens in new tab)"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item col-4"><a class="my-link"
+                            href="https://www.instagram.com/bodelschwingher_hof_restaurant/" target="_blank"
+                            rel="noopener" aria-label="Visit us on Instagram (opens in new tab)"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item col-4"><a class="my-link" href="https://goo.gl/maps/L1ZEbpdaY67HUpj88"
+                            target="_blank" rel="noopener"
+                            aria-label="Visit our buissnes Google Maps (opens in new tab)"><i
+                                class="fab fa-google"></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
 
+    <!-- Bootstrap v5.0 bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
+    <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/c9ee157f8f.js" crossorigin="anonymous"></script>
 </body>
 
