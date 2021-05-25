@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Bodelschwingher Hof is a restaurant offering mediterranean food, fresh fish and argentine steak from a lava stone grill.">
-    <meta name="keywords"
-        content="Bodelschwingher Hof, restaurant, menu, Dortmund, Bodelschwingh, partyservice, 
-    wintergarden, argentine steak, fresh fish, lavastone grill, grill, mediterranean food, ninepins, bowling, beer garden">
-    <meta name="author" content="Ana Runje">
-    <title>Bodelschwingher Hof</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Bodelschwingher Hof is a restaurant offering mediterranean food, fresh fish and argentine steak from a lava stone grill.">
+        <meta name="keywords"
+            content="Bodelschwingher Hof, restaurant, menu, Dortmund, Bodelschwingh, partyservice, 
+        wintergarden, argentine steak, fresh fish, lavastone grill, grill, mediterranean food, ninepins, bowling, beer garden">
+        <meta name="author" content="Ana Runje">
+        <title>Bodelschwingher Hof</title>
+        <!-- Bootstrap v5.0 link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Favicon -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
 
 <body>
     <header>
+        <!-- Navbar taken from bootstrap documentation code snippet, for more information see README.md -->
         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark my-nav">
             <div class="container-fluid">
-                <a class="navbar-brand my-logo fs-2" href="index.html">Bodelschwingher Hof</a>
+                <a class="navbar-brand my-logo fs-2" href="#">Bodelschwingher Hof</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -31,7 +34,7 @@
                 <div class="collapse navbar-collapse my-colapse nav-pills" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link my-link" href="index.html">Home</a>
+                            <a class="nav-link my-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link my-link" href="about.html">About</a>
@@ -40,7 +43,7 @@
                             <a class="nav-link my-link" href="menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-link active" aria-current="page" href="#">Gallery</a>
+                            <a class="nav-link my-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link my-link" href="contact.html">Contact Us</a>
@@ -51,35 +54,44 @@
         </nav>
     </header>
     <main>
+        <!-- image gallery -->
         <div class="m-5">
             <div class="row justify-content-between">
+                <!-- image one -->
                 <div class="my-img-container col-12 col-lg-8 p-2 ">
                     <img src="assets/images/outdoor.jpg" class="image-fluid my-img" alt="Restaurant beer garden">
                 </div>
+                <!-- image two -->
                 <div class="my-img-container col-12 col-md-7 col-lg-4 p-2">
                     <img src="assets/images/salad.jpg" class="image-fluid my-img" alt="Nicely arranged plate of salad">
                 </div>
+                <!-- image three -->
                 <div class="my-img-container col-12 col-md-5 col-lg-3 p-2">
                     <img src="assets/images/ninepins.jpg" class="image-fluid my-img"
                         alt="Ninepins bowling alley with rollig ball">
                 </div>
+                <!-- image four -->
                 <div class="my-img-container col-12 col-md-8 col-lg-6 p-2">
                     <img src="assets/images/fish.jpg" class="image-fluid my-img"
                         alt="A slice of cooked salamon filet nicely aranged on a plate">
                 </div>
+                <!-- image five -->
                 <div class="my-img-container col-12 col-md-4 col-lg-3 p-2">
                     <img src="assets/images/table.jpg" class="image-fluid my-img" alt="Restaurant table setting">
                 </div>
+                <!-- image six -->
                 <div class="my-img-container col-12 col-lg-6 p-2">
                     <img src="assets/images/chicken.jpg" class="image-fluid my-img"
                         alt="Chicken skewers on a bed of cooked vegetables on a plate.">
                 </div>
+                <!-- image seven -->
                 <div class="my-img-container col-12 col-lg-6 p-2">
                     <img src="assets/images/winter-garden.jpg" class="image-fluid my-img"
                         alt="Set talbe in restaurant conservatory.">
                 </div>
             </div>
         </div>
+        <!-- embeded YouTube video -->
         <div class="mb-5 my-video-container">
             <div class="ratio ratio-16x9 ">
                 <iframe class="my-video mx-auto" src="https://www.youtube.com/embed/Cv32NXUt3jI?controls=0"
@@ -92,6 +104,7 @@
     </main>
     <footer>
         <div class="d-flex flex-column flex-md-row flex-lg-row justify-content-around align-items-center">
+            <!-- Contact information -->
             <div class="mt-3">
                 <h3 class="fs-4">Info:</h3>
                 <p class="mb-1"><i class="fas fa-map-marker-alt"></i> Bodelschwingher Straße 121
@@ -100,14 +113,16 @@
                 </p>
                 <p class="mb-1"><a class="my-link" href="tel:+49231371377"> <i class="fas fa-phone"></i> 0231/37 13 77</a></p>
             </div>
+            <!-- Opening times -->
             <div class="mt-3">
                 <h3 class="fs-4">Opening times:</h3>
                 <ul class="list-unstyled">
                     <li>Monday - Saturday: 4pm - 9pm</li>
-                    <li>Sunday and holyday: 12pm - 8pm</li>
+                    <li>Sunday and holiday: 12pm - 8pm</li>
                     <li>Tuesday: closed</li>
                 </ul>
             </div>
+            <!-- Social media links -->
             <div class="mb-3 mt-md-3">
                 <ul class="list-inline justify-content-between row fs-3 m-0 p-0 flex-nowrap">
                     <li class="list-inline-item col-4"><a class="my-link" href="https://www.facebook.com/bodelschwingher.hof/"
@@ -121,9 +136,11 @@
         </div>
     </footer>
 
+    <!-- Bootstrap v5.0 bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
+    <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/c9ee157f8f.js" crossorigin="anonymous"></script>
 </body>
 
