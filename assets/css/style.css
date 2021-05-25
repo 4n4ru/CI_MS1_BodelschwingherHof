@@ -10,6 +10,8 @@
     --off-white: #f4f4f4;
 }
 
+/* override bootstrap styling for background and font and make page stretch at least 100vh to avoid whitespace below footer, 
+code taken from https://forum.freecodecamp.org/t/footer-white-space-below/191360/4 */
 body {
     background-color: var(--off-white);
     font-family: 'Montserrat', sans-serif;
@@ -33,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--dark-brown);
 }
 
+/* keep links to right */
 .my-colapse{
     flex-grow: 0;
 }
@@ -55,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .nav-pills .my-link:hover :not(.active){
     color: var(--light-grey);
 }
+
 /* main*/
 
 main h1 {
@@ -63,6 +67,8 @@ main h1 {
 }
 
 /* news */
+
+/* shape images container into a circle */
 .circle {
     border: 1px solid var(--dark-brown);
     border-radius: 50%;
@@ -70,12 +76,15 @@ main h1 {
     background-color: var(--off-white);
 }
 
+/* shape image into a circle and layer it on top of container */
 .circle img {
     width: 100%;
     border-radius: 50%;
     z-index: 3;    
 }
 
+/* make background below text sink behind image and image container and possition so that edges are 
+never visible for news section */
 .news p{
     background-color: var(--brown);
     color: var(--off-white);
@@ -88,6 +97,8 @@ main h1 {
     text-align: right;
 }
 
+/* make background below text sink behind image and image container and possition so that edges are 
+never visible for meal deal section */
 .meal-deal p {
     background-color: var(--brown);
     color: var(--off-white);
@@ -97,6 +108,7 @@ main h1 {
 }
 
 /* footer */
+
 footer {
     background-color: var(--dark-brown);
 }
@@ -120,29 +132,31 @@ footer h3 {
 
 /* about */
 
+/* make images responsive without distorting */
 .my-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.quotes {
+.reviews {
     background-color: var(--dark-grey);
     color: var(--off-white);
 }
 
-.quotes p {
+.reviews p {
     text-align: center;
     font-style: italic;
 }
 
-.quotes h2 {
+.reviews h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
 }
 
 /* menu */
+
 .menu-section h2 {
     text-align: center;
     background: url('../images/menu-background.jpg');
@@ -153,6 +167,7 @@ footer h3 {
     margin-bottom: 0;
 }
 
+/* make image sticky on top, but below h2 by calculating offset based on h2 element height */
 .my-sticky-top{
     position: relative;
     position: sticky;
@@ -160,6 +175,7 @@ footer h3 {
     top: calc(2rem + 1.325rem + .9vw);
 }
 
+/* calculate image size to fill the vh reduced by h2 size */
 .my-img-menu{
     width: 100%;
     height: calc(100vh - (2rem + 1.325rem + .9vw));
@@ -167,11 +183,13 @@ footer h3 {
 }
 
 /* gallery */
+
 .my-img-container {
     height: 33vh;
     overflow: hidden;
 }
 
+/* give embeded video max dimensions and center horizontaly on page */
 .my-video-container {
     max-width: 800px;
     max-height: 450px;
@@ -184,6 +202,7 @@ footer h3 {
 }
 
 /* contact */
+
 .my-btn {
     background-color: var(--dark-brown);
     color: var(--off-white);
@@ -196,32 +215,38 @@ footer h3 {
     border: 1px solid var(--dark-grey)
 }
 
+/* override bootstrap text color */
 #phoneHelp {
     color: var(--dark-brown);
 }
 
 @media (max-width: 768px) {
+    /* make carousel height bigger on smaller screen sizes */
     .carousel-item img {
         height: 70vh;
         object-fit: cover;
     }
 
+    /* hide overflow caused by margins to avoid horizontal scrolling */
     .news, .meal-deal {
         overflow: hidden;
     }
     
+    /* align heading to the left */
     .meal-deal h2 {
         text-align: left;
     }
 }
 
 @media (max-width: 576px) {
+    /* make divs on info box stretch full width to avoid overflow on smaller screen sizes */
     .find-us div {
         width: 100%;
     }
 }
 
 @media (max-width: 330px) {
+    /* remove right margin to avoid moving of hamburger menu to second row of navbar */
     .navbar-brand {
         margin-right: 0;
     }
