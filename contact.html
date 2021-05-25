@@ -9,20 +9,23 @@
         content="Bodelschwingher Hof is a restaurant offering mediterranean food, fresh fish and argentine steak from a lava stone grill.">
     <meta name="keywords"
         content="Bodelschwingher Hof, restaurant, menu, Dortmund, Bodelschwingh, partyservice, 
-    wintergarden, argentine steak, fresh fish, lavastone grill, grill, mediterranean food, ninepins, bowling, beer garden">
+        wintergarden, argentine steak, fresh fish, lavastone grill, grill, mediterranean food, ninepins, bowling, beer garden">
     <meta name="author" content="Ana Runje">
     <title>Bodelschwingher Hof</title>
+    <!-- Bootstrap v5.0 link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
+        <!-- Navbar taken from bootstrap documentation code snippet, for more information see README.md -->
         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark my-nav">
             <div class="container-fluid">
-                <a class="navbar-brand my-logo fs-2" href="index.html">Bodelschwingher Hof</a>
+                <a class="navbar-brand my-logo fs-2" href="#">Bodelschwingher Hof</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -31,7 +34,7 @@
                 <div class="collapse navbar-collapse my-colapse nav-pills" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link my-link" href="index.html">Home</a>
+                            <a class="nav-link my-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link my-link" href="about.html">About</a>
@@ -43,7 +46,7 @@
                             <a class="nav-link my-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-link active" aria-current="page" href="#">Contact Us</a>
+                            <a class="nav-link my-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -51,10 +54,12 @@
         </nav>
     </header>
     <main>
+        <!-- main heading -->
         <div class="d-flex justify-content-center my-5">
             <h1>Contact Us:</h1>
         </div>
         <div class="row row-cols-md-2 mb-5 mx-2 mx-sm-5 gx-0 gx-md-5">
+            <!-- contact form -->
             <div class="col-12 col-md-6 border border-2 rounded mb-3 mb-md-0 p-3 p-sm-4">
                 <p>If you have any questins, comments or suggestions, please leave us a message.</p>
                 <form action="https://formdump.codeinstitute.net" method="POST">
@@ -83,11 +88,13 @@
                 </form>
             </div>
             <div class="d-flex flex-column col-12 col-md-6 pe-0">
+                <!-- embeded Google Maps -->
                 <div class="flex-grow-1 border border-2 rounded mb-3 ratio ratio-16x9">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.9184271875934!2d7.379259015454539!3d51.5513947796423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b91bee027f83e5%3A0x47e3cb700ccf06c7!2sBodelschwingher%20Hof!5e0!3m2!1sen!2sie!4v1621376386788!5m2!1sen!2sie"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
+                <!-- info box -->
                 <div class="find-us flex-grow-1 border border-2 rounded p-3 p-sm-4">
                     <h2 class="fs-4">How to find us</h2>
                     <div class="row">
@@ -134,38 +141,50 @@
     </main>
     <footer>
         <div class="d-flex flex-column flex-md-row flex-lg-row justify-content-around align-items-center">
+            <!-- Contact information -->
             <div class="mt-3">
                 <h3 class="fs-4">Info:</h3>
                 <p class="mb-1"><i class="fas fa-map-marker-alt"></i> Bodelschwingher Straße 121
                     <br>
                     44357 Dortmund
                 </p>
-                <p class="mb-1"><a class="my-link" href="tel:+49231371377"> <i class="fas fa-phone"></i> 0231/37 13 77</a></p>
+                <p class="mb-1"><a class="my-link" href="tel:+49231371377"> <i class="fas fa-phone"></i> 0231/37 13
+                        77</a></p>
             </div>
+            <!-- Opening times -->
             <div class="mt-3">
                 <h3 class="fs-4">Opening times:</h3>
                 <ul class="list-unstyled">
                     <li>Monday - Saturday: 4pm - 9pm</li>
-                    <li>Sunday and holyday: 12pm - 8pm</li>
+                    <li>Sunday and holiday: 12pm - 8pm</li>
                     <li>Tuesday: closed</li>
                 </ul>
             </div>
+            <!-- Social media links -->
             <div class="mb-3 mt-md-3">
                 <ul class="list-inline justify-content-between row fs-3 m-0 p-0 flex-nowrap">
-                    <li class="list-inline-item col-4"><a class="my-link" href="https://www.facebook.com/bodelschwingher.hof/"
-                            target="_blank" rel="noopener" aria-label="Visit us on Facebook (opens in new tab)"><i class="fab fa-facebook"></i></a></li>
-                    <li class="list-inline-item col-4"><a class="my-link" href="https://www.instagram.com/bodelschwingher_hof_restaurant/" target="_blank" rel="noopener" aria-label="Visit us on Instagram (opens in new tab)"><i
-                                class="fab fa-instagram"></i></a></li>
                     <li class="list-inline-item col-4"><a class="my-link"
-                            href="https://goo.gl/maps/L1ZEbpdaY67HUpj88" target="_blank" rel="noopener" aria-label="Visit our buissnes Google Maps (opens in new tab)"><i class="fab fa-google"></i></a></li>
+                            href="https://www.facebook.com/bodelschwingher.hof/" target="_blank" rel="noopener"
+                            aria-label="Visit us on Facebook (opens in new tab)"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item col-4"><a class="my-link"
+                            href="https://www.instagram.com/bodelschwingher_hof_restaurant/" target="_blank"
+                            rel="noopener" aria-label="Visit us on Instagram (opens in new tab)"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item col-4"><a class="my-link" href="https://goo.gl/maps/L1ZEbpdaY67HUpj88"
+                            target="_blank" rel="noopener"
+                            aria-label="Visit our buissnes Google Maps (opens in new tab)"><i
+                                class="fab fa-google"></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
 
+    <!-- Bootstrap v5.0 bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
+    <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/c9ee157f8f.js" crossorigin="anonymous"></script>
 </body>
 
