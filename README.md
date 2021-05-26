@@ -249,10 +249,15 @@ links to the Homepage, About page, Menu page, Gallery and Contact us page
 ## Validation
 
 ### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+
 
 ### CSS Validation
+The W3C CSS Validation Service was used to validate the CSS of the website.
+The CSS passes with no errors found and some warnings associated to using root variables.
 
 ### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
 ### Performance 
 
