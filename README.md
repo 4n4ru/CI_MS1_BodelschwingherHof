@@ -341,6 +341,11 @@ The website was tested on the following browsers:
 | oh my so many bug | and this is how we fix them |
 
 ## Deployment
+The website was deployed using GitHub Pages by the following procedure:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
 
 ## Credits
 Images not referenced below are owned by the developer.
