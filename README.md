@@ -71,20 +71,20 @@
 ### User Stories
 
 #### First-time User 
-1. As a user, I want to know where the restaurant is lokated
-2. As a user, I want to know the price range
-3. As a user, I want to know more about the restaurant
-4. As a user, I want to get a feel of what to expect at the restaurant
+1. As a first time user, I want to know where the restaurant is lokated
+2. As a first time user, I want to know the price range
+3. As a first time user, I want to know more about the restaurant
+4. As a first time user, I want to get a feel of what to expect at the restaurant
 
 #### Returning User
 5. As a returning user, I want to see the Sunday meal offer
 6. As a returnign user, I want to know the opening times
-7. As a user returning user, I want to find a phone number to call for reservation
-8. As a user returning user, I want to see the menu
-9. As a user returning user, I want to leave some comment, suggestion or message to the staff
-10. As a user returning user, I want to find the restaurant on social media
-11. As a user returning user, I want to know who is preparing the food
-12. As a user returning user, I want to get directions to the restaurant
+7. As a returning user, I want to find a phone number to call for reservation
+8. As a returning user, I want to see the menu
+9. As a returning user, I want to leave some comment, suggestion or message to the staff
+10. As a returning user, I want to find the restaurant on social media
+11. As a returning user, I want to know who is preparing the food
+12. As a returning user, I want to get directions to the restaurant
 
 #### Site Owner 
 13. As the site owner, I want users to find news about upcoming events or changes in opening times
@@ -188,7 +188,7 @@ links to the Homepage, About page, Menu page, Gallery and Contact us page
 ### Footer
 - Featured on all five pages
 - Consists of three seperate sections: contact information, opening times, and social media links
-- User stories covered: 1, 6, 7, 10
+- User stories covered: 1, 6, 7, 10, 15
 
 ![Footer](docs/features/feature-footer.jpg)
 
@@ -200,6 +200,7 @@ links to the Homepage, About page, Menu page, Gallery and Contact us page
 
 ### Customer reviews
 - Features a few reviews left by the restaurants customers on social media
+- User stories covered: 3
 
 ![Reviews](docs/features/feature-reviews.jpg)
 
@@ -327,9 +328,90 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. 
+1. As a first time user, I want to know where the restaurant is lokated
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+
+2. As a first time user, I want to know the price range
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+
+3. As a first time user, I want to know more about the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
+| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected | 
+
+4. As a first time user, I want to get a feel of what to expect at the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
+| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
+
+5. As a returning user, I want to see the Sunday meal offer
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+
+6. As a returnign user, I want to know the opening times
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
+
+7. As a returning user, I want to find a phone number to call for reservation
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
+| Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
+
+8. As a returning user, I want to see the menu
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu | Navigate to the menu page | Read the menu | Works as expected |
+
+9. As a returning user, I want to leave some comment, suggestion or message to the staff
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+
+10. As a returning user, I want to find the restaurant on social media
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected | 
+
+11. As a returning user, I want to know who is preparing the food
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
+
+12. As a returning user, I want to get directions to the restaurant
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Gootle Maps | Works as expected |
+
+13. As the site owner, I want users to find news about upcoming events or changes in opening times
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| News | Scroll down on home page and locate news section | Find latest news | Works as expected |
+
+14. As the site owner, I want users to get to know the restaurant 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
+
+15. As the site owner, I want the users to be able to contact us
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+| Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
 
 
 ## Bugs
