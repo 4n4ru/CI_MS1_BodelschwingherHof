@@ -153,6 +153,7 @@ The website consists of five separate pages:
 - Google Fonts
 - Adobe Color
 - Font Awsome
+- Favicon<span>.</span>io
 
 ## Features
 The page consists of five pages and fourteen features
@@ -250,7 +251,6 @@ links to the Homepage, About page, Menu page, Gallery and Contact us page
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
-
 
 ### CSS Validation
 The W3C CSS Validation Service was used to validate the CSS of the website.
