@@ -1,4 +1,5 @@
 # Bodelschwinger Hof
+(Developer: Ana Runje)
 
 ![Mockup image](docs/am-i-responsive.jpg)
 
@@ -472,3 +473,4 @@ I would like to take the opportunity to thank:
 - My mentor Mo Shami for his feedback, advice, guidance and support.
 - My husband Jure Runje for his support, advice, help with testing, and for giving me some kids free time to work on my project.
 - To the lovely people on the Code Institute Slack for providing peer code reviews.
+- My parents who own the restaurant that inspired this website
