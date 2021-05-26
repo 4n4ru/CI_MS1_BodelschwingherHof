@@ -336,9 +336,11 @@ The website was tested on the following browsers:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Some bug | The fix for it |
-| another bug | another fix |
-| oh my so many bug | and this is how we fix them |
+| Home page link stays highlighted when visiting another page | Change active atribute to the correct page |
+| The user can submit a contact form input without a message | Add required attribute to message input field |
+| Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
+| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
+| When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
 
 ## Deployment
 The website was deployed using GitHub Pages by the following procedure:
