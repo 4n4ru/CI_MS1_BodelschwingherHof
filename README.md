@@ -251,13 +251,46 @@ links to the Homepage, About page, Menu page, Gallery and Contact us page
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+<details><summary>Home</summary>
+<img src="docs/validation/validation-html-index.jpg">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/validation-html-about.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/validation-html-menu.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/validation-html-gallery.jpg">
+</details>
+<details><summary>Home</summary>
+<img src="docs/validation/validation-html-contact.jpg">
+</details>
 
 ### CSS Validation
 The W3C CSS Validation Service was used to validate the CSS of the website.
 The CSS passes with no errors found and some warnings associated to using root variables.
+<details><summary>style.css</summary>
+<img src="docs/validation/validation-css-style.jpg">
+</details>
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+<details><summary>Home</summary>
+<img src="docs/validation/validation-accessibility-index.jpg">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/validation-accessibility-about.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/validation-accessibility-menu.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/validation-accessibility-gallery.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/validation-accessibility-contact.jpg">
+</details>
 
 ### Performance 
 
