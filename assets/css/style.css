@@ -167,18 +167,18 @@ footer h3 {
     margin-bottom: 0;
 }
 
-/* make image sticky on top, but below h2 by calculating offset based on h2 element height */
+/* make image sticky on top, but below h2 by calculating offset based on h2 element height (2xpadding + font-size) */
 .my-sticky-top{
     position: relative;
     position: sticky;
     position: -webkit-sticky;
-    top: calc(2rem + 1.325rem + .9vw);
+    top: calc(2rem + (1.325rem + .9vw));
 }
 
 /* calculate image size to fill the vh reduced by h2 size */
 .my-img-menu{
     width: 100%;
-    height: calc(100vh - (2rem + 1.325rem + .9vw));
+    height: calc(100vh - (2rem + (1.325rem + .9vw)));
     object-fit: cover;
 }
 
@@ -218,6 +218,24 @@ footer h3 {
 /* override bootstrap text color */
 #phoneHelp {
     color: var(--dark-brown);
+}
+
+/* 404 page*/
+
+#error-img-cont {
+    max-width: 500px;
+}
+
+.home-btn {
+    background-color: var(--dark-brown);
+    color: var(--off-white);
+    text-decoration: none;
+    display: block;
+    border-radius: 0.25rem;
+}
+
+.home-btn:hover {
+    color: var(--light-grey);
 }
 
 @media (max-width: 768px) {
