@@ -339,11 +339,20 @@ The website was tested on the following browsers:
 | Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
 | Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+<img src="docs/user-story-testing/user-story-1v2.jpg">
+</details>
+
 2. As a first time user, I want to know the price range
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
 
 3. As a first time user, I want to know more about the restaurant
 
@@ -352,6 +361,10 @@ The website was tested on the following browsers:
 | About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
 | Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected | 
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-3-14.jpg">
+</details>
+
 4. As a first time user, I want to get a feel of what to expect at the restaurant
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -359,17 +372,29 @@ The website was tested on the following browsers:
 | Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
 | Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-4.jpg">
+</details>
+
 5. As a returning user, I want to see the Sunday meal offer
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-5.jpg">
+</details>
+
 6. As a returnign user, I want to know the opening times
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-6.jpg">
+</details>
 
 7. As a returning user, I want to find a phone number to call for reservation
 
@@ -378,11 +403,20 @@ The website was tested on the following browsers:
 | Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
 | Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-7v1-15.jpg">
+<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+</details>
+
 8. As a returning user, I want to see the menu
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Menu | Navigate to the menu page | Read the menu | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-8.jpg">
+</details>
 
 9. As a returning user, I want to leave some comment, suggestion or message to the staff
 
@@ -390,11 +424,19 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-9-15.jpg">
+</details>
+
 10. As a returning user, I want to find the restaurant on social media
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected | 
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-10.jpg">
+</details>
 
 11. As a returning user, I want to know who is preparing the food
 
@@ -402,11 +444,19 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-11.jpg">
+</details>
+
 12. As a returning user, I want to get directions to the restaurant
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Gootle Maps | Works as expected |
+| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+</details>
 
 13. As the site owner, I want users to find news about upcoming events or changes in opening times
 
@@ -414,11 +464,19 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | News | Scroll down on home page and locate news section | Find latest news | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-13.jpg">
+</details>
+
 14. As the site owner, I want users to get to know the restaurant 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-3-14.jpg">
+</details>
 
 15. As the site owner, I want the users to be able to contact us
 
@@ -427,6 +485,12 @@ The website was tested on the following browsers:
 | Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
 | Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
 | Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-7v1-15.jpg">
+<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+<img src="docs/user-story-testing/user-story-9-15.jpg">
+</details>
 
 
 ## Bugs
@@ -477,12 +541,14 @@ In order of apearance:
 - [salad](assets/images/salad.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - [fish](assets/images/fish.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - [chicken](assets/images/chicken.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- [404 error image](assets/images/404-error.png): <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
   
 ### Code
 In order of apearance:
 - The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) was taken from the Bootstrap v5.0 documentation code snippet and combined with their [Navbar with Pills](https://getbootstrap.com/docs/5.0/components/navs-tabs/#pills)
 - [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.0 documentation code snippet
 - CSS code to avoid whitespace below footer was taken from a forum post on [FreeCodeCamp](https://forum.freecodecamp.org/t/footer-white-space-below/191360)
+- 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
 ## Acknowledgements
 I would like to take the opportunity to thank:
