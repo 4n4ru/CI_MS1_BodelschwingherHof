@@ -215,6 +215,15 @@ footer h3 {
     border: 1px solid var(--dark-grey)
 }
 
+.my-link-cont {
+    color: var(--dark-brown);
+    text-decoration: none;
+}
+.my-link-cont:hover {
+    color: var(--brown);
+    text-decoration: none;
+}
+
 /* override bootstrap text color */
 #phoneHelp {
     color: var(--dark-brown);
