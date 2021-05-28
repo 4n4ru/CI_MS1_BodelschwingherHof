@@ -219,6 +219,7 @@ footer h3 {
     color: var(--dark-brown);
     text-decoration: none;
 }
+
 .my-link-cont:hover {
     color: var(--brown);
     text-decoration: none;
